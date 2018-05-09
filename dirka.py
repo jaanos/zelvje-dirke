@@ -2,11 +2,13 @@ import turtle
 from zelva import Zelva
 from rdeca_zelva import RdecaZelva
 from kameleonska_zelva import KameleonskaZelva
+from zelvaJaka import ZelvaJaka
 
 # Barve bomo nastavljali s števili v rangu od 0.0 do 1.0
 turtle.colormode(1.0)
 
 ZELVE = [
+    ZelvaJaka(),
     RdecaZelva(),
     KameleonskaZelva(),
     Zelva('Zelenka', barva='green', hitrost=1),
