@@ -46,4 +46,4 @@ def dirka(zacetek, konec, visina=20, korak=10):
                 print("{} je prišla do cilja!".format(zelva))
 
 # Izvedemo dirko
-dirka(-250, 330)
+dirka(-200, 250)
